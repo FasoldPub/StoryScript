@@ -1,4 +1,5 @@
 ﻿import { Location } from '../types'
+import { OldTemple } from './OldTemple';
 import description from './Start.html?raw'
 
 export function Start() {
@@ -6,7 +7,10 @@ export function Start() {
         name: 'Start',
         description: description,
         destinations: [
-            
+            {
+                name: 'Investigate the ruins',
+                target: OldTemple
+            },
         ]
     });
 }
