@@ -8,9 +8,18 @@ export function OldTemple() {
 		description: description,
 		destinations: [
 			{
-				name: 'Camp',
+				name: 'Return to Camp',
 				target: Start
 			},
+			{
+				name: 'Look Around',
+				target: null
+			},
+			{
+				name: 'Listen',
+				target: null
+			},
 		]
+		
 	});
 }
