@@ -4,7 +4,7 @@ import description from './Start.html?raw'
 
 export function Start() {
     return Location({
-        name: 'Start',
+        name: 'Camp',
         description: description,
         destinations: [
             {

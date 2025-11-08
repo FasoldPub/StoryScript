@@ -4,11 +4,11 @@ import { Start } from './start';
 
 export function OldTemple() {
 	return Location({
-		name: 'OldTemple',
+		name: 'Old ruins',
 		description: description,
 		destinations: [
 			{
-				name: 'Start',
+				name: 'Camp',
 				target: Start
 			},
 		]
